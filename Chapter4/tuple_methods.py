@@ -12,3 +12,7 @@ print("Count of 10 in tuple:",numbers.count(10)) # Output: 0
 # The index() method raises a ValueError if the value is not found
 print("Index of 3.5 in tuple:",numbers.index(3.5)) # Output: 2
 print("Index of False in tuple:",numbers.index(False)) # Output: 3
+
+# in operator
+print("Is 'Hello' in tuple?",'Hello' in numbers) # Output: True
+print("Is 10 in tuple?",10 in numbers) # Output: False
