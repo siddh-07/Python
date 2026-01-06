@@ -3,5 +3,6 @@ friends = ["Siddh","Harry",1,True,5.6,"Ron"]
 print(friends)
 
 # Unlike strings list modification methods do not return a new list, they modify the existing list and return None.
-print(friends.append("Hermione"))  # Adds "Hermione" to the end of the list
+friends.append("Hermione")  # Adds "Hermione" to the end of the list
+print(friends)
 
