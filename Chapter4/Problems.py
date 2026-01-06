@@ -1,37 +1,46 @@
 # Practise Code for Chapter 4 
 # Problem 1: Write a program to create a list of fruits by taking input from the user.
-''' Fruits = []
-f1 = input("Enter the first element of the list: ")    
-f2 = input("Enter the second element of the list: ")
-f3 = input("Enter the third element of the list: ")
-f4 = input("Enter the fourth element of the list: ")
-f5 = input("Enter the fifth element of the list: ")
-f6 = input("Enter the sixth element of the list: ")
-f7 = input("Enter the seventh element of the list: ")
-Fruits.append(f1)
-Fruits.append(f2)
-Fruits.append(f3)
-Fruits.append(f4)
-Fruits.append(f5)
-Fruits.append(f6)
-Fruits.append(f7)
+# Fruits = []
+# f1 = input("Enter the first element of the list: ")    
+# f2 = input("Enter the second element of the list: ")
+# f3 = input("Enter the third element of the list: ")
+# f4 = input("Enter the fourth element of the list: ")
+# f5 = input("Enter the fifth element of the list: ")
+# f6 = input("Enter the sixth element of the list: ")
+# f7 = input("Enter the seventh element of the list: ")
+# Fruits.append(f1)
+# Fruits.append(f2)
+# Fruits.append(f3)
+# Fruits.append(f4)
+# Fruits.append(f5)
+# Fruits.append(f6)
+# Fruits.append(f7)
 
-print(Fruits)   '''
+# print(Fruits)   
 
 #Problem 2: Write a program to accept marks of 6 students and display them in a sorted manner.
-''' marks = []
-m1 = int(input("Enter the marks of first student: "))
-m2 = int(input("Enter the marks of second student: "))
-m3 = int(input("Enter the marks of third student: "))
-m4 = int(input("Enter the marks of fourth student: "))
-m5 = int(input("Enter the marks of fifth student: "))
-m6 = int(input("Enter the marks of sixth student: "))
-marks.append(m1)
-marks.append(m2)
-marks.append(m3)
-marks.append(m4)
-marks.append(m5)
-marks.append(m6)
-marks.sort()
-print("The sorted marks are: ", marks) '''
+# marks = []
+# m1 = int(input("Enter the marks of first student: "))
+# m2 = int(input("Enter the marks of second student: "))
+# m3 = int(input("Enter the marks of third student: "))
+# m4 = int(input("Enter the marks of fourth student: "))
+# m5 = int(input("Enter the marks of fifth student: "))
+# m6 = int(input("Enter the marks of sixth student: "))
+# marks.append(m1)
+# marks.append(m2)
+# marks.append(m3)
+# marks.append(m4)
+# marks.append(m5)
+# marks.append(m6)
+# marks.sort()
+# print("The sorted marks are: ", marks)
 
+# Problem 3: Write a program to sum a list With 4 numbers.
+# numbers = [1,2,3,4,5]
+# total = sum(numbers)
+# print("The sum of the list is: ", total)
+ 
+#Problem 4: Write a program to count the number of zeros in a given tuple.
+# numers = (1,0,2,0,3,0,4,0,5,0)
+# count = numers.count(0)
+# print("The number of zeros in the tuple is: ", count)
