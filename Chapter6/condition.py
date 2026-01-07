@@ -1,6 +1,7 @@
+# Program to demonstrate if-elif-else ladder in Python
+
 age = int(input("Enter your age: "))
 
-# if - elif - else ladder
 if (age < 0):
     print("Invalid age. Age cannot be negative.")       
 elif (age < 13):
