@@ -27,4 +27,12 @@ print("\nReverse number triangle:")
 for i in range(num+1,1,-1):
     for j in range(1,i):
         print(j,end="") 
-    print()    
+    print()
+    
+print("Floyd’s Triangle:")
+n = 1   
+for i in range(1,num+1):
+    for j in range(1,i+1):
+        print(f"{n} ",end="")
+        n += 1
+    print()  
