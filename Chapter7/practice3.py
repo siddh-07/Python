@@ -3,9 +3,8 @@
 num = int(input("Enter the number of rows: "))
 
 print("Right-angled triangle pattern:")
-for i in range(num):
-    for j in range(i+1):
-        print(f"*", end=" ")
+for i in range(1,num+1):
+    print("*"*i, end="")
     print() 
 
 
@@ -19,13 +18,12 @@ for i in range(num):
     print()  # Move to the next line after inner loop    
     
 print("\nSolid square pattern:")
-for i in range(num):
-    for j in range(num):
-        print("*", end=" ")
-    print()  # Move to the next line after inner loop
+for i in range(1,num+1):
+    print
+    
 
 print("\nTringle Pattern:")
 for i in range(1,num+1):
     print(" " * (num-i),end="")
     print("*"* (2*i-1), end="")
-    print("\n")   
+    print() 
