@@ -19,8 +19,8 @@ for i in range(num):
     
 print("\nSolid square pattern:")
 for i in range(1,num+1):
-    print
-    
+    print("* "*num, end="")
+    print()    
 
 print("\nTringle Pattern:")
 for i in range(1,num+1):
