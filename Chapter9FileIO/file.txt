@@ -1,7 +1,4 @@
-Twinkle, twinkle, little star,
-How I wonder what you are!
-Up above the world so high,
-Like a diamond in the sky.
-
-Twinkle, twinkle, little star,
-How I wonder what you are!
+Hello, World!
+This is a test file.
+Writing to files in Python is easy!
+My Name is Siddh Bhadani
