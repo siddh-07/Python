@@ -9,4 +9,12 @@ def avg():
     
 # Function Call
 avg()
+
+#Function with arguments
+def good(name, rollNumber):
+    print("My name is " + name + "My RollNumber is " + rollNumber)
+    print("Have a good day " + name)
     
+    
+good("Siddh" , "26")
+good("Nency" , "25")
