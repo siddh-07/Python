@@ -1,4 +1,4 @@
-# Create a Stone PaperScissors game
+# Create a Stone Paper Scissors game
 import random
 computer = random.choice(['stone', 'paper', 'scissors'])
 user = input("Enter your choice (stone, paper, scissors): ").lower()
