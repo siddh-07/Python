@@ -14,7 +14,12 @@ avg()
 def good(name, rollNumber):
     print("My name is " + name + "My RollNumber is " + rollNumber)
     print("Have a good day " + name)
+    return "Done" #It returns value
     
     
 good("Siddh" , "26")
 good("Nency" , "25")
+
+value = good("Nency" , "25")
+print(avg()) # It will return None
+print(value) # It will return Done
