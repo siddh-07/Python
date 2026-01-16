@@ -21,7 +21,7 @@ def celsius_to_fahrenheit(celsius):
     return fahrenheit
 
 # Input from user
-celsius_temp = float(input("\nEnter temperature in Celsius: "))
+celsius_temp = round(float(input("\nEnter temperature in Celsius: ")),2) # Rounded to 2 decimal places
 fahrenheit_temp = celsius_to_fahrenheit(celsius_temp)
 print(f"{celsius_temp}°C is equal to {fahrenheit_temp}°F")
 
