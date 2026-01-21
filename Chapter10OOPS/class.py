@@ -19,7 +19,7 @@ class student:
 siddh = student()
 
 # Setting values using the setvalues method
-siddh.setvalues("Siddharth", 21, 95)
+siddh.setvalues("Siddh", 21, 95)
 
 # Printing values using the printvalues method
 siddh.printvalues()
