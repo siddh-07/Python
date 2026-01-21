@@ -5,7 +5,7 @@ class Animals:
     
 class Pet(Animals):
     
-    def __init__(self):
+    def __init__(self ):
         print("The pet barks")
     
 class Dog(Pet):
