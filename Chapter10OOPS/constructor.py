@@ -11,6 +11,6 @@ class employee:
     def show(self):
         return f"Name: {self.name}, Salary: {self.salary}, Role: {self.role}"
     
-emp1 = employee("Siddharth", 100000, "Developer")
+emp1 = employee("Siddh", 100000, "Developer")
 
 # I have not called show method yet but the constructor has already executed and printed the message ("Employee created successfully")
