@@ -3,6 +3,10 @@ class Calculator:
     def __init__(self, number):
         self.number = number
         
+    @staticmethod
+    def greet():
+        print("Welcome to the Calculator!")
+        
     def squre(self):
         return self.number ** 2
     
@@ -13,6 +17,7 @@ class Calculator:
         return self.number ** 0.5
     
 calc = Calculator(9)
+calc.greet()
 print("Square:", calc.squre())
 print("Cube:", calc.cube())
 print("Square Root:", calc.square_root())
